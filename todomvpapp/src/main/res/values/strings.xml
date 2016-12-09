@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TodoMvpApp</string>
+
+
+    <string name="list_title">TO-DO 列表</string>
+    <string name="statistics_title">统计总数</string>
+
+    <string name="navigation_view_header_title">TO-DOs</string>
+
+</resources>
