@@ -2,7 +2,9 @@ package xaccp.ljw.jvdemo.net;
 
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.Query;
 import rx.Observable;
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
@@ -13,7 +15,7 @@ import xaccp.ljw.jvdemo.bean.UserBean;
  * Created by Administrator on 2016/11/18.
  */
 
-public class NetWorks extends RetrofitUtils {
+public class RequestUtils extends RetrofitUtils {
 
     //创建实现接口调用
     protected static final NetService service = getRetrofit().create(NetService.class);
@@ -32,10 +34,17 @@ public class NetWorks extends RetrofitUtils {
         @POST("")
         Observable<UserBean> userBeanCodePost(@Field("userName") String userName, @Field("password") String password);
 
+        @GET("idcard/index")
+        Observable<String> testUrl(@Query("key") String key, @Query("cardno") String cardno);
+
     }
 
-    public static void userBeanCodePost(String userName,String password,Observer<UserBean> observer){
-        setSubscribe(service.userBeanCodePost(userName,password),observer);
+    public static void userBeanCodePost(String userName, String password, Observer<UserBean> observer) {
+        setSubscribe(service.userBeanCodePost(userName, password), observer);
+    }
+
+    public static void testUrl(String key, String cardno, Observer<String> observer) {
+        setSubscribe(service.testUrl(key, cardno), observer);
     }
 
 

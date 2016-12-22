@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/listre/listre.iml" filepath="$PROJECT_DIR$/listre/listre.iml" />
       <module fileurl="file://$PROJECT_DIR$/loginmvp/loginmvp.iml" filepath="$PROJECT_DIR$/loginmvp/loginmvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvpplus/mvpplus.iml" filepath="$PROJECT_DIR$/mvpplus/mvpplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mynetwork/mynetwork.iml" filepath="$PROJECT_DIR$/mynetwork/mynetwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigation/navigation.iml" filepath="$PROJECT_DIR$/navigation/navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/paydemo/paydemo.iml" filepath="$PROJECT_DIR$/paydemo/paydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" filepath="$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrolling/scrolling.iml" filepath="$PROJECT_DIR$/scrolling/scrolling.iml" />

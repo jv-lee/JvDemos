@@ -1,1 +1,1 @@
-include ':app', ':systembar', ':paydemo', ':todomvpapp', ':loginmvp', ':mvpplus', ':rxbusdemo', ':utils', ':scrolling', ':listre', ':listre'
+include ':app', ':systembar', ':paydemo', ':todomvpapp', ':loginmvp', ':mvpplus', ':rxbusdemo', ':utils', ':scrolling', ':listre', ':listre', ':navigation', ':mynetwork'

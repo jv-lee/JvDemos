@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public abstract class RetrofitUtils {
 
     //服务器路径 url请求地址
-    private static final String API_SERVER = "";
+    private static final String API_SERVER = "http://apis.juhe.cn/";
 
     private static Retrofit mRetrofit;
     private static OkHttpClient mOkHttpClient;
