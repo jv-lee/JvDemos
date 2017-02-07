@@ -3,13 +3,14 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="F:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/contactssimple" />
+            <option value="$PROJECT_DIR$/genericparadigm" />
             <option value="$PROJECT_DIR$/listre" />
             <option value="$PROJECT_DIR$/loginmvp" />
             <option value="$PROJECT_DIR$/mvpplus" />
@@ -23,6 +24,7 @@
             <option value="$PROJECT_DIR$/systembar" />
             <option value="$PROJECT_DIR$/todomvpapp" />
             <option value="$PROJECT_DIR$/utils" />
+            <option value="$PROJECT_DIR$/windowsimple" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
