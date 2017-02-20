@@ -9,8 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/contactssimple" />
             <option value="$PROJECT_DIR$/genericparadigm" />
+            <option value="$PROJECT_DIR$/instaMaterial" />
             <option value="$PROJECT_DIR$/listre" />
             <option value="$PROJECT_DIR$/loginmvp" />
             <option value="$PROJECT_DIR$/mvpplus" />
@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/sortrecyler" />
             <option value="$PROJECT_DIR$/systembar" />
             <option value="$PROJECT_DIR$/todomvpapp" />
+            <option value="$PROJECT_DIR$/toucheventsimple" />
             <option value="$PROJECT_DIR$/utils" />
             <option value="$PROJECT_DIR$/windowsimple" />
           </set>
