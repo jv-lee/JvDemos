@@ -23,6 +23,11 @@ public class Item1Delagate implements ItemViewDelegate<SimpleBean> {
 
     @Override
     public void convert(ViewHolder holder, SimpleBean simpleBean, int position) {
+        if (position == 4) {
+            holder.setChecked(R.id.cb_item, true);
+        } else {
+            holder.setChecked(R.id.cb_item, false);
+        }
         holder.setText(R.id.tv_item, simpleBean.getText());
     }
 }

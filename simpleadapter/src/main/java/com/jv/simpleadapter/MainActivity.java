@@ -47,17 +47,17 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         x++;
-                        SimpleBean simpleBean = null;
-                        simpleBean = new SimpleBean("this is refresh data", true);
-                        mData.add(simpleBean);
                         if (x == 2) {
                             mLoadMoreWrapper = new LoadMoreWrapper(mAdapter);
                             mLoadMoreWrapper.setLoadMoreView(LayoutInflater.from(MainActivity.this).inflate(R.layout.load_layout2, rvContent, false));
                             rvContent.setAdapter(mLoadMoreWrapper);
+                        }else{
+                            SimpleBean simpleBean = null;
+                            simpleBean = new SimpleBean("this is refresh data", true);
+                            mData.add(simpleBean);
                         }
-                        mLoadMoreWrapper.notifyDataSetChanged();
+                            mLoadMoreWrapper.notifyDataSetChanged();
                         rvContent.scrollToPosition(mAdapter.getItemCount() - 1);
-
                     }
                 }, 3000);
             }
