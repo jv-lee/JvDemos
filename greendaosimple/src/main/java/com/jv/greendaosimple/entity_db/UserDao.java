@@ -1,9 +1,7 @@
-package com.jv.greendaosimple.db;
+package com.jv.greendaosimple.entity_db;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteStatement;
-
-import com.jv.greendaosimple.entity.User;
 
 import org.greenrobot.greendao.AbstractDao;
 import org.greenrobot.greendao.Property;

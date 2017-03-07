@@ -1,4 +1,4 @@
-package com.jv.greendaosimple.entity;
+package com.jv.greendaosimple.entity_db;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteStatement;

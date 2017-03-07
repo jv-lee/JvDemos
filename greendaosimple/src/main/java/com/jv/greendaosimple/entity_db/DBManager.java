@@ -1,11 +1,7 @@
-package com.jv.greendaosimple.db;
+package com.jv.greendaosimple.entity_db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-
-import com.jv.greendaosimple.entity.User;
-
-import org.greenrobot.greendao.query.QueryBuilder;
 
 import java.util.List;
 

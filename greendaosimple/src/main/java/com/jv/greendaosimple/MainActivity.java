@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.jv.greendaosimple.db.DBManager;
-import com.jv.greendaosimple.entity.User;
+import com.jv.greendaosimple.entity_db.DBManager;
+import com.jv.greendaosimple.entity_db.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,6 +62,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 }
                 break;
             case R.id.btn_findLimit:
+                //分页查询 查询数目显示5条 从第i条开始查询
                 List<User> users2 = DBManager.getInstance(this).queryUserList(5, i);
                 i = i + 5;
                 Log.i("User", "FIND Limit - >");

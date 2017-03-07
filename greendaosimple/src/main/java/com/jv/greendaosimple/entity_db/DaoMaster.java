@@ -1,4 +1,4 @@
-package com.jv.greendaosimple.db;
+package com.jv.greendaosimple.entity_db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.util.Log;
 
 import org.greenrobot.greendao.AbstractDaoMaster;
+import org.greenrobot.greendao.AbstractDaoSession;
 import org.greenrobot.greendao.database.StandardDatabase;
 import org.greenrobot.greendao.database.Database;
 import org.greenrobot.greendao.database.DatabaseOpenHelper;
@@ -22,12 +23,14 @@ public class DaoMaster extends AbstractDaoMaster {
     /** Creates underlying database table using DAOs. */
     public static void createAllTables(Database db, boolean ifNotExists) {
         BusDao.createTable(db, ifNotExists);
+        ByDao.createTable(db, ifNotExists);
         UserDao.createTable(db, ifNotExists);
     }
 
     /** Drops underlying database table using DAOs. */
     public static void dropAllTables(Database db, boolean ifExists) {
         BusDao.dropTable(db, ifExists);
+        ByDao.dropTable(db, ifExists);
         UserDao.dropTable(db, ifExists);
     }
 
@@ -35,11 +38,6 @@ public class DaoMaster extends AbstractDaoMaster {
      * WARNING: Drops all table on Upgrade! Use only during development.
      * Convenience method using a {@link DevOpenHelper}.
      */
-    public static DaoSession newDevSession(Context context, String name) {
-        Database db = new DevOpenHelper(context, name).getWritableDb();
-        DaoMaster daoMaster = new DaoMaster(db);
-        return daoMaster.newSession();
-    }
 
     public DaoMaster(SQLiteDatabase db) {
         this(new StandardDatabase(db));
@@ -48,16 +46,20 @@ public class DaoMaster extends AbstractDaoMaster {
     public DaoMaster(Database db) {
         super(db, SCHEMA_VERSION);
         registerDaoClass(BusDao.class);
+        registerDaoClass(ByDao.class);
         registerDaoClass(UserDao.class);
     }
 
-    public DaoSession newSession() {
-        return new DaoSession(db, IdentityScopeType.Session, daoConfigMap);
+    @Override
+    public AbstractDaoSession newSession() {
+        return null;
     }
 
-    public DaoSession newSession(IdentityScopeType type) {
-        return new DaoSession(db, type, daoConfigMap);
+    @Override
+    public AbstractDaoSession newSession(IdentityScopeType type) {
+        return null;
     }
+
 
     /**
      * Calls {@link #createAllTables(Database, boolean)} in {@link #onCreate(Database)} -
