@@ -4,15 +4,19 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JvDemo.iml" filepath="$PROJECT_DIR$/JvDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colorthemeskin/colorthemeskin.iml" filepath="$PROJECT_DIR$/colorthemeskin/colorthemeskin.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericparadigm/genericparadigm.iml" filepath="$PROJECT_DIR$/genericparadigm/genericparadigm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendaosimple/greendaosimple.iml" filepath="$PROJECT_DIR$/greendaosimple/greendaosimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/instaMaterial/instaMaterial.iml" filepath="$PROJECT_DIR$/instaMaterial/instaMaterial.iml" />
       <module fileurl="file://$PROJECT_DIR$/listre/listre.iml" filepath="$PROJECT_DIR$/listre/listre.iml" />
       <module fileurl="file://$PROJECT_DIR$/loginmvp/loginmvp.iml" filepath="$PROJECT_DIR$/loginmvp/loginmvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/multitypeadapter/multitypeadapter.iml" filepath="$PROJECT_DIR$/multitypeadapter/multitypeadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvpplus/mvpplus.iml" filepath="$PROJECT_DIR$/mvpplus/mvpplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvvmsimple/mvvmsimple.iml" filepath="$PROJECT_DIR$/mvvmsimple/mvvmsimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/mynetwork/mynetwork.iml" filepath="$PROJECT_DIR$/mynetwork/mynetwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigation/navigation.iml" filepath="$PROJECT_DIR$/navigation/navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/paydemo/paydemo.iml" filepath="$PROJECT_DIR$/paydemo/paydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" filepath="$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" filepath="$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrolling/scrolling.iml" filepath="$PROJECT_DIR$/scrolling/scrolling.iml" />
       <module fileurl="file://$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" filepath="$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" />

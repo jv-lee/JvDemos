@@ -27,7 +27,8 @@ public class FragmentFactory {
             "ScoreCureViewFragment",
             "StateButtonFragment",
             "TimeFragment",
-            "LoadingLayoutFragment"};
+            "LoadingLayoutFragment",
+            "BottomSheetDialogFragment"};
 
     //实际Fragment保存数组
     public static Fragment[] fragmentClass = {new IntentServiceFragment(R.layout.fragment_intentservice),
@@ -39,7 +40,8 @@ public class FragmentFactory {
             new ScoreCureViewFragment(R.layout.fragment_score_cure_view),
             new StateButtonFragment(R.layout.fragment_state_button),
             new TimeFragment(R.layout.fragment_time),
-            new LoadingLayoutFragment(R.layout.fragment_loading_layout)};
+            new LoadingLayoutFragment(R.layout.fragment_loading_layout),
+            new BottomSheetDialogFragment(R.layout.fragment_bottom_sheet_dialog)};
 
     //对外提供获取当前Fragment方法
     public static Fragment getFragment(String key) {

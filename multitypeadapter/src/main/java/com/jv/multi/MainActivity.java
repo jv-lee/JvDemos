@@ -2,17 +2,10 @@ package com.jv.multi;
 
 import android.databinding.DataBindingUtil;
 import android.os.Handler;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
-import android.view.View;
-import android.widget.Toast;
-
-import com.jv.multi.adapter.MultiTypeAdapter;
-import com.jv.multi.adapter.item.FooterItem;
-import com.jv.multi.adapter.item.HeaderItem;
 import com.jv.multi.databinding.ActivityMainBinding;
 import com.jv.multi.presenter.MainPresenter;
 import com.lcodecore.tkrefreshlayout.Footer.LoadingView;

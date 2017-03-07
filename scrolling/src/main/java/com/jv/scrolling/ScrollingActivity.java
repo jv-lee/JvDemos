@@ -27,7 +27,7 @@ public class ScrollingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scrolling);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        BarUtils.setTransparent(this);
+//        BarUtils.setTransparent(this);
 
         for (int i = 0; i <= 30; i++) {
             if (i % 2 == 0) {

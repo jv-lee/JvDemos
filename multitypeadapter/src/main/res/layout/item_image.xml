@@ -18,7 +18,11 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"
+            app:error="@{@drawable/ic_launcher}"
+            app:placeholder="@{@drawable/ic_launcher}"
+            app:url="@{item.url}" />
+
 
         <include
             layout="@layout/include_actions"

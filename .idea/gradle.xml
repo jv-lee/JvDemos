@@ -9,15 +9,19 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/colorthemeskin" />
             <option value="$PROJECT_DIR$/genericparadigm" />
+            <option value="$PROJECT_DIR$/greendaosimple" />
             <option value="$PROJECT_DIR$/instaMaterial" />
             <option value="$PROJECT_DIR$/listre" />
             <option value="$PROJECT_DIR$/loginmvp" />
             <option value="$PROJECT_DIR$/multitypeadapter" />
             <option value="$PROJECT_DIR$/mvpplus" />
+            <option value="$PROJECT_DIR$/mvvmsimple" />
             <option value="$PROJECT_DIR$/mynetwork" />
             <option value="$PROJECT_DIR$/navigation" />
             <option value="$PROJECT_DIR$/paydemo" />
+            <option value="$PROJECT_DIR$/recyclerbanner" />
             <option value="$PROJECT_DIR$/rxbusdemo" />
             <option value="$PROJECT_DIR$/scrolling" />
             <option value="$PROJECT_DIR$/searchstartactivity" />
