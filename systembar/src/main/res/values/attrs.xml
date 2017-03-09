@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BottomTabBar">
+        <attr name="drawableTopWidth" format="dimension"></attr>
+        <attr name="drawableTopHeight" format="dimension"></attr>
+        <attr name="tabColorSelector" format="color"></attr>
+    </declare-styleable>
+
+    <string-array name="titleArray">
+        <item>title1</item>
+        <item>title2</item>
+        <item>title3</item>
+        <item>title4</item>
+    </string-array>
+
+    <integer-array name="drawableArray">
+        <item>@drawable/selector_tab_icon</item>
+        <item>@drawable/selector_tab_icon</item>
+        <item>@drawable/selector_tab_icon</item>
+        <item>@drawable/selector_tab_icon</item>
+    </integer-array>
+
+</resources>

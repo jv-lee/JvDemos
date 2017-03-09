@@ -9,7 +9,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/colorthemeskin" />
             <option value="$PROJECT_DIR$/genericparadigm" />
             <option value="$PROJECT_DIR$/greendaosimple" />
             <option value="$PROJECT_DIR$/instaMaterial" />
@@ -26,6 +25,7 @@
             <option value="$PROJECT_DIR$/scrolling" />
             <option value="$PROJECT_DIR$/searchstartactivity" />
             <option value="$PROJECT_DIR$/simpleadapter" />
+            <option value="$PROJECT_DIR$/simpleview" />
             <option value="$PROJECT_DIR$/sortrecyler" />
             <option value="$PROJECT_DIR$/systembar" />
             <option value="$PROJECT_DIR$/todomvpapp" />

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_nav_ui"
+        android:enabled="true"
+        android:icon="@drawable/selector_tab_icon"
+        android:title="title1"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottom_nav_data"
+        android:enabled="true"
+        android:icon="@drawable/selector_tab_icon"
+        android:title="title2"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottom_nav_service"
+        android:enabled="true"
+        android:icon="@drawable/selector_tab_icon"
+        android:title="title3"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottom_nav_net"
+        android:enabled="true"
+        android:icon="@drawable/selector_tab_icon"
+        android:title="title4"
+        app:showAsAction="ifRoom" />
+
+</menu>

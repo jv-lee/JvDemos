@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JvDemo.iml" filepath="$PROJECT_DIR$/JvDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/colorthemeskin/colorthemeskin.iml" filepath="$PROJECT_DIR$/colorthemeskin/colorthemeskin.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericparadigm/genericparadigm.iml" filepath="$PROJECT_DIR$/genericparadigm/genericparadigm.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendaosimple/greendaosimple.iml" filepath="$PROJECT_DIR$/greendaosimple/greendaosimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/instaMaterial/instaMaterial.iml" filepath="$PROJECT_DIR$/instaMaterial/instaMaterial.iml" />
@@ -21,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/scrolling/scrolling.iml" filepath="$PROJECT_DIR$/scrolling/scrolling.iml" />
       <module fileurl="file://$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" filepath="$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadapter/simpleadapter.iml" filepath="$PROJECT_DIR$/simpleadapter/simpleadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleview/simpleview.iml" filepath="$PROJECT_DIR$/simpleview/simpleview.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortrecyler/sortrecyler.iml" filepath="$PROJECT_DIR$/sortrecyler/sortrecyler.iml" />
       <module fileurl="file://$PROJECT_DIR$/systembar/systembar.iml" filepath="$PROJECT_DIR$/systembar/systembar.iml" />
       <module fileurl="file://$PROJECT_DIR$/todomvpapp/todomvpapp.iml" filepath="$PROJECT_DIR$/todomvpapp/todomvpapp.iml" />
