@@ -28,7 +28,37 @@
     <!--android:layout_width="wrap_content"-->
     <!--android:layout_height="wrap_content" />-->
 
-    <com.jv.simpleview.view.BitmapView
+    <!--<com.jv.simpleview.view.BitmapView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+
+    <!--<com.jv.simpleview.view.CheckView-->
+    <!--android:id="@+id/cv_view"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/check"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:text="check" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/unCheck"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:text="unCheck" />-->
+
+    <!--<com.jv.simpleview.view.SimpleTextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <com.jv.simpleview.view.PathView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
