@@ -27,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
 //        pieDatas.add(new PieData("数据", 21));
 //        pieDatas.add(new PieData("数据", 160));
 //        pieView.setData(pieDatas);
+        
     }
 }
