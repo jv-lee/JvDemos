@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.jv.simpleview.module.PieData;
+import com.jv.simpleview.view.BezierTowView;
 import com.jv.simpleview.view.CheckView;
 import com.jv.simpleview.view.PieView;
 
@@ -16,8 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
 //    private PieView pieView;
 
-    private CheckView mCheckView;
-    private Button btnCheck, btnUnCheck;
+//    private CheckView mCheckView;
+//    private Button btnCheck, btnUnCheck;
+
+    private BezierTowView bt_View;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +54,15 @@ public class MainActivity extends AppCompatActivity {
 //                mCheckView.unCheck();
 //            }
 //        });
-
+        bt_View = (BezierTowView) findViewById(R.id.bt_view);
     }
+
+    public void clickOne(View view) {
+        bt_View.setMode(true);
+    }
+
+    public void clickTow(View view) {
+        bt_View.setMode(false);
+    }
+
 }
