@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="testProgressBarStyle" parent="@android:style/Widget.Material.Light.ProgressBar.Large">
+        <item name="android:indeterminateTint">@android:color/black</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:minWidth">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+        <item name="android:maxWidth">16dp</item>
+    </style>
+
 </resources>

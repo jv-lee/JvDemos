@@ -74,31 +74,39 @@
     <!--android:layout_height="wrap_content" />-->
 
     <!--贝尔塞曲线三阶-->
-    <com.jv.simpleview.view.BezierTowView
-        android:id="@+id/bt_view"
+    <!--<com.jv.simpleview.view.BezierTowView-->
+    <!--android:id="@+id/bt_view"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_mode1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:onClick="clickOne"-->
+    <!--android:text="mode-1" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_mode2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:onClick="clickTow"-->
+    <!--android:text="mode-2" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--PathMeasure Path测量类 实例-->
+    <!--<com.jv.simpleview.view.PathMeasureView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <com.jv.simpleview.view.PathMeasureTowView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true">
-
-        <Button
-            android:id="@+id/btn_mode1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="clickOne"
-            android:text="mode-1" />
-
-        <Button
-            android:id="@+id/btn_mode2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="clickTow"
-            android:text="mode-2" />
-
-
-    </LinearLayout>
 
 </RelativeLayout>

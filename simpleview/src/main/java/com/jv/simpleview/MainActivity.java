@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 //    private CheckView mCheckView;
 //    private Button btnCheck, btnUnCheck;
 
-    private BezierTowView bt_View;
+//    private BezierTowView bt_View;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,15 +54,15 @@ public class MainActivity extends AppCompatActivity {
 //                mCheckView.unCheck();
 //            }
 //        });
-        bt_View = (BezierTowView) findViewById(R.id.bt_view);
+//        bt_View = (BezierTowView) findViewById(R.id.bt_view);
     }
 
-    public void clickOne(View view) {
-        bt_View.setMode(true);
-    }
-
-    public void clickTow(View view) {
-        bt_View.setMode(false);
-    }
+//    public void clickOne(View view) {
+//        bt_View.setMode(true);
+//    }
+//
+//    public void clickTow(View view) {
+//        bt_View.setMode(false);
+//    }
 
 }

@@ -3,11 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:padding="10dp">
 
     <ProgressBar
+        style="@style/testProgressBarStyle"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在加载"
+        android:textColor="@android:color/black" />
 
 </LinearLayout>
