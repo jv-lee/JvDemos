@@ -6,8 +6,15 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.0'
+
+        //依赖库
         classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
+
+        //greendao 依赖
         classpath 'org.greenrobot:greendao-gradle-plugin:3.0.0'
+
+        //dagger2 依赖
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -17,8 +24,10 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven { url "https://jitpack.io"
-            "https://s3.amazonaws.com/repo.commonsware.com"}
+        maven {
+            url "https://jitpack.io"
+            "https://s3.amazonaws.com/repo.commonsware.com"
+        }
     }
 }
 
