@@ -19,6 +19,7 @@ public class LoginModel extends BaseModel implements LoginContract.Model {
 
     @Inject
     public LoginModel() {
+
     }
 
     @Override
