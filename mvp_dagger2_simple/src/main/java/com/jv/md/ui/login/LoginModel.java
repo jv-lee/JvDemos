@@ -24,6 +24,7 @@ public class LoginModel extends BaseModel implements LoginContract.Model {
 
     @Override
     public Observable<String> login(String mobile, String password) {
+//        return mServiceManager.mUserService.login(mobile, password);
         return Observable.just("登陆成功");
     }
 }
