@@ -16,7 +16,8 @@ import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 public class SimpleActivity extends AppCompatActivity {
 
     private BottomNavigationBar bottomNavigationBar;
-    private BottomNavigationItem[] items = {new BottomNavigationItem(R.drawable.ic_audio_vol, "home1").setActiveColorResource(R.color.blue)
+    private BottomNavigationItem[] items = {
+            new BottomNavigationItem(R.drawable.ic_audio_vol, "home1").setActiveColorResource(R.color.blue)
             , new BottomNavigationItem(R.drawable.ic_skei_blank_24dp, "home2").setActiveColorResource(R.color.brown)
             , new BottomNavigationItem(R.drawable.ic_usb_48dp, "home3").setActiveColorResource(R.color.grey)
             , new BottomNavigationItem(R.drawable.ic_image_24dp, "home4").setActiveColorResource(R.color.teal).setBadgeItem(new BadgeItem()

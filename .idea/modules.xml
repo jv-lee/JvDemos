@@ -5,70 +5,37 @@
       <module fileurl="file://$PROJECT_DIR$/JvDemo.iml" filepath="$PROJECT_DIR$/JvDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/JvDemos.iml" filepath="$PROJECT_DIR$/JvDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/builder/builder.iml" filepath="$PROJECT_DIR$/builder/builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/builder/builder.iml" filepath="$PROJECT_DIR$/builder/builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/dagger2_simple/dagger2_simple.iml" filepath="$PROJECT_DIR$/dagger2_simple/dagger2_simple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dagger2_simple/dagger2_simple.iml" filepath="$PROJECT_DIR$/dagger2_simple/dagger2_simple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/genericparadigm/genericparadigm.iml" filepath="$PROJECT_DIR$/genericparadigm/genericparadigm.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericparadigm/genericparadigm.iml" filepath="$PROJECT_DIR$/genericparadigm/genericparadigm.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendaosimple/greendaosimple.iml" filepath="$PROJECT_DIR$/greendaosimple/greendaosimple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/greendaosimple/greendaosimple.iml" filepath="$PROJECT_DIR$/greendaosimple/greendaosimple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/instaMaterial/instaMaterial.iml" filepath="$PROJECT_DIR$/instaMaterial/instaMaterial.iml" />
       <module fileurl="file://$PROJECT_DIR$/instaMaterial/instaMaterial.iml" filepath="$PROJECT_DIR$/instaMaterial/instaMaterial.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsmap/jsmap.iml" filepath="$PROJECT_DIR$/jsmap/jsmap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jsmap/jsmap.iml" filepath="$PROJECT_DIR$/jsmap/jsmap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/listre/listre.iml" filepath="$PROJECT_DIR$/listre/listre.iml" />
       <module fileurl="file://$PROJECT_DIR$/listre/listre.iml" filepath="$PROJECT_DIR$/listre/listre.iml" />
       <module fileurl="file://$PROJECT_DIR$/loginmvp/loginmvp.iml" filepath="$PROJECT_DIR$/loginmvp/loginmvp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loginmvp/loginmvp.iml" filepath="$PROJECT_DIR$/loginmvp/loginmvp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/miuitost/miuitost.iml" filepath="$PROJECT_DIR$/miuitost/miuitost.iml" />
       <module fileurl="file://$PROJECT_DIR$/miuitost/miuitost.iml" filepath="$PROJECT_DIR$/miuitost/miuitost.iml" />
       <module fileurl="file://$PROJECT_DIR$/multitype/multitype.iml" filepath="$PROJECT_DIR$/multitype/multitype.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multitype/multitype.iml" filepath="$PROJECT_DIR$/multitype/multitype.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multitypeadapter/multitypeadapter.iml" filepath="$PROJECT_DIR$/multitypeadapter/multitypeadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/multitypeadapter/multitypeadapter.iml" filepath="$PROJECT_DIR$/multitypeadapter/multitypeadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp_dagger2_simple/mvp_dagger2_simple.iml" filepath="$PROJECT_DIR$/mvp_dagger2_simple/mvp_dagger2_simple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mvp_dagger2_simple/mvp_dagger2_simple.iml" filepath="$PROJECT_DIR$/mvp_dagger2_simple/mvp_dagger2_simple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mvpplus/mvpplus.iml" filepath="$PROJECT_DIR$/mvpplus/mvpplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvpplus/mvpplus.iml" filepath="$PROJECT_DIR$/mvpplus/mvpplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvvmsimple/mvvmsimple.iml" filepath="$PROJECT_DIR$/mvvmsimple/mvvmsimple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mvvmsimple/mvvmsimple.iml" filepath="$PROJECT_DIR$/mvvmsimple/mvvmsimple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mynetwork/mynetwork.iml" filepath="$PROJECT_DIR$/mynetwork/mynetwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/mynetwork/mynetwork.iml" filepath="$PROJECT_DIR$/mynetwork/mynetwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigation/navigation.iml" filepath="$PROJECT_DIR$/navigation/navigation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/navigation/navigation.iml" filepath="$PROJECT_DIR$/navigation/navigation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/paydemo/paydemo.iml" filepath="$PROJECT_DIR$/paydemo/paydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/paydemo/paydemo.iml" filepath="$PROJECT_DIR$/paydemo/paydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/realmsimple/realmsimple.iml" filepath="$PROJECT_DIR$/realmsimple/realmsimple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/realmsimple/realmsimple.iml" filepath="$PROJECT_DIR$/realmsimple/realmsimple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" filepath="$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" filepath="$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/refreshcomponent/refreshcomponent.iml" filepath="$PROJECT_DIR$/refreshcomponent/refreshcomponent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/refreshcomponent/refreshcomponent.iml" filepath="$PROJECT_DIR$/refreshcomponent/refreshcomponent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" filepath="$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" filepath="$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrolling/scrolling.iml" filepath="$PROJECT_DIR$/scrolling/scrolling.iml" />
-      <module fileurl="file://$PROJECT_DIR$/scrolling/scrolling.iml" filepath="$PROJECT_DIR$/scrolling/scrolling.iml" />
-      <module fileurl="file://$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" filepath="$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" filepath="$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadapter/simpleadapter.iml" filepath="$PROJECT_DIR$/simpleadapter/simpleadapter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simpleadapter/simpleadapter.iml" filepath="$PROJECT_DIR$/simpleadapter/simpleadapter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simpleview/simpleview.iml" filepath="$PROJECT_DIR$/simpleview/simpleview.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleview/simpleview.iml" filepath="$PROJECT_DIR$/simpleview/simpleview.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortrecyler/sortrecyler.iml" filepath="$PROJECT_DIR$/sortrecyler/sortrecyler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sortrecyler/sortrecyler.iml" filepath="$PROJECT_DIR$/sortrecyler/sortrecyler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/systembar/systembar.iml" filepath="$PROJECT_DIR$/systembar/systembar.iml" />
       <module fileurl="file://$PROJECT_DIR$/systembar/systembar.iml" filepath="$PROJECT_DIR$/systembar/systembar.iml" />
       <module fileurl="file://$PROJECT_DIR$/todomvpapp/todomvpapp.iml" filepath="$PROJECT_DIR$/todomvpapp/todomvpapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/todomvpapp/todomvpapp.iml" filepath="$PROJECT_DIR$/todomvpapp/todomvpapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/toucheventsimple/toucheventsimple.iml" filepath="$PROJECT_DIR$/toucheventsimple/toucheventsimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/toucheventsimple/toucheventsimple.iml" filepath="$PROJECT_DIR$/toucheventsimple/toucheventsimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/windowsimple/windowsimple.iml" filepath="$PROJECT_DIR$/windowsimple/windowsimple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/windowsimple/windowsimple.iml" filepath="$PROJECT_DIR$/windowsimple/windowsimple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
     </modules>
   </component>
