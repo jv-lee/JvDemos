@@ -15,7 +15,6 @@
             <option value="$PROJECT_DIR$/greendaosimple" />
             <option value="$PROJECT_DIR$/instaMaterial" />
             <option value="$PROJECT_DIR$/jsmap" />
-            <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/listre" />
             <option value="$PROJECT_DIR$/loginmvp" />
             <option value="$PROJECT_DIR$/miuitost" />
@@ -27,11 +26,12 @@
             <option value="$PROJECT_DIR$/mynetwork" />
             <option value="$PROJECT_DIR$/navigation" />
             <option value="$PROJECT_DIR$/paydemo" />
+            <option value="$PROJECT_DIR$/processlibrary" />
+            <option value="$PROJECT_DIR$/processsample" />
             <option value="$PROJECT_DIR$/realmsimple" />
             <option value="$PROJECT_DIR$/recyclerbanner" />
             <option value="$PROJECT_DIR$/refreshcomponent" />
             <option value="$PROJECT_DIR$/rxbusdemo" />
-            <option value="$PROJECT_DIR$/sample" />
             <option value="$PROJECT_DIR$/scrolling" />
             <option value="$PROJECT_DIR$/searchstartactivity" />
             <option value="$PROJECT_DIR$/simpleadapter" />

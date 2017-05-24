@@ -1,5 +1,6 @@
 package com.wenming.androidprocess.fragment;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -17,6 +18,7 @@ import com.wenming.androidprocess.Features;
 /**
  * Created by wenmingvs on 2016/1/14.
  */
+@SuppressLint("ValidFragment")
 public class ProfileFragment extends Fragment {
     private Context mContext;
     private View mView;
