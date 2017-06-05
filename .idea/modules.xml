@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" filepath="$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/refreshcomponent/refreshcomponent.iml" filepath="$PROJECT_DIR$/refreshcomponent/refreshcomponent.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" filepath="$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjava2/rxjava2.iml" filepath="$PROJECT_DIR$/rxjava2/rxjava2.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrolling/scrolling.iml" filepath="$PROJECT_DIR$/scrolling/scrolling.iml" />
       <module fileurl="file://$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" filepath="$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadapter/simpleadapter.iml" filepath="$PROJECT_DIR$/simpleadapter/simpleadapter.iml" />
