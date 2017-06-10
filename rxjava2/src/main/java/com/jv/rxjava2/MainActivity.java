@@ -1,14 +1,22 @@
 package com.jv.rxjava2;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
+import android.util.Base64;
 import android.util.Log;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
+
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
 import io.reactivex.BackpressureStrategy;
 import io.reactivex.Flowable;
@@ -29,10 +37,52 @@ import io.reactivex.schedulers.Schedulers;
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = "jv.lee";
 
+    public Bitmap stringtoBitmap(String string) {
+        //将字符串转换成Bitmap类型
+        Bitmap bitmap = null;
+        try {
+            byte[] bitmapArray;
+            bitmapArray = Base64.decode(string, Base64.DEFAULT);
+            bitmap = BitmapFactory.decodeByteArray(bitmapArray, 0, bitmapArray.length);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return bitmap;
+    }
+
+    public static String readStreamToString(InputStream inputStream) throws IOException {
+        //创建字节数组输出流 ，用来输出读取到的内容
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        //创建读取缓存,大小为1024
+        byte[] buffer = new byte[1024];
+        //每次读取长度
+        int len = 0;
+        //开始读取输入流中的文件
+        while ((len = inputStream.read(buffer)) != -1) { //当等于-1说明没有数据可以读取了
+            byteArrayOutputStream.write(buffer, 0, len); // 把读取的内容写入到输出流中
+        }
+        //把读取到的字节数组转换为字符串
+        String result = byteArrayOutputStream.toString();
+
+        //关闭输入流和输出流
+        inputStream.close();
+        byteArrayOutputStream.close();
+        //返回字符串结果
+        return result;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        try {
+            ImageView image = (ImageView) findViewById(R.id.iv_image);
+            image.setImageBitmap(stringtoBitmap(readStreamToString(getAssets().open("image.txt"))));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         rxFunction();
     }
