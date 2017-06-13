@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.support.annotation.RequiresApi
 import android.support.v4.app.ActivityCompat
 import android.support.v4.app.ActivityOptionsCompat
+import com.bumptech.glide.Glide
 
 import com.jv.animation.R
 import kotlinx.android.synthetic.main.activity_view.*
@@ -17,7 +18,7 @@ class ViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view)
-
+        Glide.with(this@ViewActivity).load("http://ww2.sinaimg.cn/large/7a8aed7bgw1eutscfcqtcj20dw0i0q4l.jpg").into(iv_view)
         iv_view.setOnClickListener({
             val options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, iv_view, "sharedImage")
             ActivityCompat.startActivity(this@ViewActivity, Intent(this, ToViewActivity::class.java), options.toBundle())
