@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.jv.simpleview.module.PieData;
 import com.jv.simpleview.view.BezierTowView;
@@ -55,6 +56,13 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 //        bt_View = (BezierTowView) findViewById(R.id.bt_view);
+
+        findViewById(R.id.close_view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "点击了 close view", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
 //    public void clickOne(View view) {
