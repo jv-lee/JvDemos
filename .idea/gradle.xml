@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/animation" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/baseadapterandanimation" />
             <option value="$PROJECT_DIR$/builder" />
             <option value="$PROJECT_DIR$/dagger2_simple" />
             <option value="$PROJECT_DIR$/genericparadigm" />
