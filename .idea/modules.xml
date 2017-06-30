@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/mvvmsimple/mvvmsimple.iml" filepath="$PROJECT_DIR$/mvvmsimple/mvvmsimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/mynetwork/mynetwork.iml" filepath="$PROJECT_DIR$/mynetwork/mynetwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigation/navigation.iml" filepath="$PROJECT_DIR$/navigation/navigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parallaxback/parallaxback.iml" filepath="$PROJECT_DIR$/parallaxback/parallaxback.iml" />
       <module fileurl="file://$PROJECT_DIR$/paydemo/paydemo.iml" filepath="$PROJECT_DIR$/paydemo/paydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/processlibrary/processlibrary.iml" filepath="$PROJECT_DIR$/processlibrary/processlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/processsample/processsample.iml" filepath="$PROJECT_DIR$/processsample/processsample.iml" />
