@@ -2,15 +2,11 @@ package com.app.mt.alipay;
 
 import java.util.Map;
 
-import org.json.JSONObject;
 
 import com.alipay.sdk.app.PayTask;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
