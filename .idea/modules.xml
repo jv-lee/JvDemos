@@ -35,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" filepath="$PROJECT_DIR$/searchstartactivity/searchstartactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleadapter/simpleadapter.iml" filepath="$PROJECT_DIR$/simpleadapter/simpleadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleview/simpleview.iml" filepath="$PROJECT_DIR$/simpleview/simpleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartrefresh/smartrefresh.iml" filepath="$PROJECT_DIR$/smartrefresh/smartrefresh.iml" />
       <module fileurl="file://$PROJECT_DIR$/sms_simple/sms_simple.iml" filepath="$PROJECT_DIR$/sms_simple/sms_simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortrecyler/sortrecyler.iml" filepath="$PROJECT_DIR$/sortrecyler/sortrecyler.iml" />
       <module fileurl="file://$PROJECT_DIR$/systembar/systembar.iml" filepath="$PROJECT_DIR$/systembar/systembar.iml" />
