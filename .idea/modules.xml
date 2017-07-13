@@ -26,7 +26,6 @@
       <module fileurl="file://$PROJECT_DIR$/paydemo/paydemo.iml" filepath="$PROJECT_DIR$/paydemo/paydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/processlibrary/processlibrary.iml" filepath="$PROJECT_DIR$/processlibrary/processlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/processsample/processsample.iml" filepath="$PROJECT_DIR$/processsample/processsample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/realmsimple/realmsimple.iml" filepath="$PROJECT_DIR$/realmsimple/realmsimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" filepath="$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/refreshcomponent/refreshcomponent.iml" filepath="$PROJECT_DIR$/refreshcomponent/refreshcomponent.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" filepath="$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" />
