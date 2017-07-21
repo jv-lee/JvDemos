@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/baseadapterandanimation/baseadapterandanimation.iml" filepath="$PROJECT_DIR$/baseadapterandanimation/baseadapterandanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/builder/builder.iml" filepath="$PROJECT_DIR$/builder/builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/dagger2_simple/dagger2_simple.iml" filepath="$PROJECT_DIR$/dagger2_simple/dagger2_simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gangedrecyclerview/gangedrecyclerview.iml" filepath="$PROJECT_DIR$/gangedrecyclerview/gangedrecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericparadigm/genericparadigm.iml" filepath="$PROJECT_DIR$/genericparadigm/genericparadigm.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendaosimple/greendaosimple.iml" filepath="$PROJECT_DIR$/greendaosimple/greendaosimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/instaMaterial/instaMaterial.iml" filepath="$PROJECT_DIR$/instaMaterial/instaMaterial.iml" />
