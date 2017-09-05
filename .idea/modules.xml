@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/animation/animation.iml" filepath="$PROJECT_DIR$/animation/animation.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/baseadapterandanimation/baseadapterandanimation.iml" filepath="$PROJECT_DIR$/baseadapterandanimation/baseadapterandanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/behavior/behavior.iml" filepath="$PROJECT_DIR$/behavior/behavior.iml" />
       <module fileurl="file://$PROJECT_DIR$/builder/builder.iml" filepath="$PROJECT_DIR$/builder/builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/dagger2_simple/dagger2_simple.iml" filepath="$PROJECT_DIR$/dagger2_simple/dagger2_simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/gangedrecyclerview/gangedrecyclerview.iml" filepath="$PROJECT_DIR$/gangedrecyclerview/gangedrecyclerview.iml" />
@@ -25,10 +26,12 @@
       <module fileurl="file://$PROJECT_DIR$/navigation/navigation.iml" filepath="$PROJECT_DIR$/navigation/navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/parallaxback/parallaxback.iml" filepath="$PROJECT_DIR$/parallaxback/parallaxback.iml" />
       <module fileurl="file://$PROJECT_DIR$/paydemo/paydemo.iml" filepath="$PROJECT_DIR$/paydemo/paydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pictureselect/pictureselect.iml" filepath="$PROJECT_DIR$/pictureselect/pictureselect.iml" />
       <module fileurl="file://$PROJECT_DIR$/processlibrary/processlibrary.iml" filepath="$PROJECT_DIR$/processlibrary/processlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/processsample/processsample.iml" filepath="$PROJECT_DIR$/processsample/processsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" filepath="$PROJECT_DIR$/recyclerbanner/recyclerbanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/refreshcomponent/refreshcomponent.iml" filepath="$PROJECT_DIR$/refreshcomponent/refreshcomponent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roomlib/roomlib.iml" filepath="$PROJECT_DIR$/roomlib/roomlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" filepath="$PROJECT_DIR$/rxbusdemo/rxbusdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava2/rxjava2.iml" filepath="$PROJECT_DIR$/rxjava2/rxjava2.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrolling/scrolling.iml" filepath="$PROJECT_DIR$/scrolling/scrolling.iml" />

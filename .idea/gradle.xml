@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/animation" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/baseadapterandanimation" />
+            <option value="$PROJECT_DIR$/behavior" />
             <option value="$PROJECT_DIR$/builder" />
             <option value="$PROJECT_DIR$/dagger2_simple" />
             <option value="$PROJECT_DIR$/gangedrecyclerview" />
@@ -30,10 +31,12 @@
             <option value="$PROJECT_DIR$/navigation" />
             <option value="$PROJECT_DIR$/parallaxback" />
             <option value="$PROJECT_DIR$/paydemo" />
+            <option value="$PROJECT_DIR$/pictureselect" />
             <option value="$PROJECT_DIR$/processlibrary" />
             <option value="$PROJECT_DIR$/processsample" />
             <option value="$PROJECT_DIR$/recyclerbanner" />
             <option value="$PROJECT_DIR$/refreshcomponent" />
+            <option value="$PROJECT_DIR$/roomlib" />
             <option value="$PROJECT_DIR$/rxbusdemo" />
             <option value="$PROJECT_DIR$/rxjava2" />
             <option value="$PROJECT_DIR$/scrolling" />

@@ -34,6 +34,7 @@ allprojects {
         maven {
             url "https://jitpack.io"
             "https://s3.amazonaws.com/repo.commonsware.com"
+            "https://maven.google.com"
         }
     }
 }
