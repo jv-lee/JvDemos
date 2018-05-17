@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.android.compile
+
+    defaultConfig {
+        applicationId "com.google.topalertsimple"
+        minSdkVersion rootProject.android.min
+        targetSdkVersion rootProject.android.target
+        versionCode rootProject.android.vcode
+        versionName rootProject.android.vname
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:$rootProject.library.support"
+    implementation "com.android.support.constraint:constraint-layout:$rootProject.library.constraint"
+    implementation "com.android.support:design:$rootProject.library.support"
+
+    implementation 'com.tapadoo.android:alerter:2.0.1'
+
+}

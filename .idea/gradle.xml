@@ -8,12 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/androidprovider" />
             <option value="$PROJECT_DIR$/animation" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/baseadapterandanimation" />
             <option value="$PROJECT_DIR$/behavior" />
             <option value="$PROJECT_DIR$/builder" />
-            <option value="$PROJECT_DIR$/dagger2_simple" />
             <option value="$PROJECT_DIR$/gangedrecyclerview" />
             <option value="$PROJECT_DIR$/genericparadigm" />
             <option value="$PROJECT_DIR$/greendaosimple" />
@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/miuitost" />
             <option value="$PROJECT_DIR$/multitype" />
             <option value="$PROJECT_DIR$/multitypeadapter" />
+            <option value="$PROJECT_DIR$/mvp2018" />
             <option value="$PROJECT_DIR$/mvp_dagger2_simple" />
             <option value="$PROJECT_DIR$/mvpplus" />
             <option value="$PROJECT_DIR$/mvvmsimple" />
@@ -40,16 +41,21 @@
             <option value="$PROJECT_DIR$/rxbusdemo" />
             <option value="$PROJECT_DIR$/rxjava2" />
             <option value="$PROJECT_DIR$/scrolling" />
+            <option value="$PROJECT_DIR$/scrollingconflict" />
             <option value="$PROJECT_DIR$/searchstartactivity" />
             <option value="$PROJECT_DIR$/simpleadapter" />
             <option value="$PROJECT_DIR$/simpleview" />
             <option value="$PROJECT_DIR$/smartrefresh" />
             <option value="$PROJECT_DIR$/sms_simple" />
             <option value="$PROJECT_DIR$/sortrecyler" />
+            <option value="$PROJECT_DIR$/sqllitesimple" />
+            <option value="$PROJECT_DIR$/statuslayout" />
             <option value="$PROJECT_DIR$/systembar" />
             <option value="$PROJECT_DIR$/todomvpapp" />
+            <option value="$PROJECT_DIR$/topalertsimple" />
             <option value="$PROJECT_DIR$/toucheventsimple" />
             <option value="$PROJECT_DIR$/utils" />
+            <option value="$PROJECT_DIR$/web2app" />
             <option value="$PROJECT_DIR$/windowsimple" />
             <option value="$PROJECT_DIR$/zxing" />
           </set>

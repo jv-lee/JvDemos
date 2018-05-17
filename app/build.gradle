@@ -1,15 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    compileSdkVersion rootProject.android.compile
     defaultConfig {
         applicationId "xaccp.ljw.jvdemo"
-        minSdkVersion 21
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        minSdkVersion rootProject.android.min
+        targetSdkVersion rootProject.android.target
+        versionCode rootProject.android.vcode
+        versionName rootProject.android.vname
     }
     buildTypes {
         release {
@@ -20,22 +18,20 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.1.1'
-    compile 'io.reactivex:rxjava:1.1.0'
-    compile 'io.reactivex:rxandroid:1.1.0'
-    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
-    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
-    compile 'com.google.code.gson:gson:2.6.2'
-    compile 'com.jakewharton:butterknife:7.0.1'
-    compile 'com.android.support:support-v4:25.1.1'
-    compile 'com.jcodecraeer:xrecyclerview:1.2.7'
-    compile 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
-    compile 'com.android.support:design:25.1.1'
-    testCompile 'junit:junit:4.12'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.android.support:appcompat-v7:$rootProject.library.support"
+    implementation "com.android.support.constraint:constraint-layout:$rootProject.library.constraint"
+    implementation "com.android.support:design:$rootProject.library.support"
+    implementation "com.android.support:support-v4:$rootProject.library.support"
+
+    implementation "io.reactivex:rxjava:1.1.0"
+    implementation "io.reactivex:rxandroid:1.1.0"
+    implementation "com.squareup.retrofit2:retrofit:2.0.0-beta4"
+    implementation "com.squareup.retrofit2:converter-gson:2.0.0-beta4"
+    implementation "com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4"
+    implementation "com.google.code.gson:gson:2.6.2"
+    implementation "com.jakewharton:butterknife:7.0.1"
+    implementation "com.jcodecraeer:xrecyclerview:1.2.7"
+    implementation "com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.1"
+
 }
